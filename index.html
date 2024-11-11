@@ -36,12 +36,10 @@
             <li><a href="#footer" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
-        <h1 class="header__title">
-          <span class="header__title header__title_span-accent">
-            Café&nbsp;de&nbsp;especialidad&nbsp;
-          </span>
-          en Triple Peaks
-        </h1>
+        <span class="header__title header__title_span-accent">
+          Café&nbsp;de&nbsp;especialidad&nbsp;
+        </span>
+        <h1 class="header__title">en Triple Peaks</h1>
         <p class="header__description">
           ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
           para darte energía y motivar tu creatividad.
@@ -102,7 +100,61 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="reservation__fieldset">
+              <label for="Nombre" class="reservation__label">Nombre</label>
+              <input
+                type="text"
+                placeholder="Nombre"
+                required
+                class="reservation__input"
+                id="Nombre"
+              />
+              <label for="comensales" class="reservation__label"
+                >Número de Comensales</label
+              >
+              <input
+                type="number"
+                placeholder="1-8"
+                required
+                class="reservation__input"
+                max="8"
+                min="1"
+                id="comensales"
+              />
+              <label for="fecha" class="reservation__label">Fecha y Hora</label>
+              <input
+                type="datetime-local"
+                required
+                class="reservation__input"
+                id="fecha"
+              />
+              <label for="email" class="reservation__label"
+                >Tu correo electrónico</label
+              >
+              <input
+                type="email"
+                placeholder="email@email.com"
+                required
+                class="reservation__input"
+                id="email"
+              />
+              <fieldset class="reservation__container">
+                <button type="submit" class="reservation__button">
+                  Reservar una mesa
+                </button>
+              </fieldset>
+              <fieldset
+                class="reservation__container reservation__container-checkbox"
+              >
+                <input type="checkbox" required />
+                <p>Acepto los términos de uso</p>
+              </fieldset>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer" id="footer"></footer>
     </div>
