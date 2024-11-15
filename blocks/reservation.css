@@ -68,14 +68,12 @@
   border-radius: 4px;
   opacity: 100%;
 }
-
+.reservation__button:hover {
+  opacity: 70%;
+}
 .reservation__container {
   padding: 0;
   border: 0;
-}
-
-.reservation__button:hover {
-  opacity: 70%;
 }
 
 .reservation__container-checkbox {
