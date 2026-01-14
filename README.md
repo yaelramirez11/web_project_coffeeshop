@@ -1,10 +1,9 @@
 # Cafe de especialidad en Triple Peaks
 
-Es un sitio web para reservación en la cafetería virtual de Triple Ten, llamada Triple Espresso.
+Es un sitio web de reservación para la cafetería virtual de Triple Ten, llamada Triple Espresso.
 
-El sitio utiliza las tecnologías de código HTML y CSS para una buena experiencia del usuario al navegar por la página web.
+El proyecto fue desarrollado con HTML y CSS, enfocándose en una estructura clara, buenas prácticas de maquetación y una experiencia de usuario consistente en distintos tamaños de pantalla.
 
-Una mejora podría ser poner un formulario pequeño para registrarte como usuario y abonar los puntos que consumas en tus compras para futuras visitas.
 
 🔗 **Live demo:**  
 https://yaelramirez11.github.io/web_project_coffeeshop/
